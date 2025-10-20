@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Email title</title>
+    <style>
+      .cta:hover {
+        font-size: 18px!important;
+        background: #cb886fd5!important;
+
+      }
+      @media screen and (min-width: 600px) {        
+        .wrapper {
+          max-width: 600px!important;
+        }
+        
+        .columns {
+          display: flex!important;
+        }
+
+        .column {
+          display: flex!important;
+          flex-direction: column;
+          justify-content: space-evenly;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .wrapper {
+          background: #cb886f!important;
+          color: #f1e6dd!important;
+        }
+
+        .columns {
+          background: #cb886f!important; 
+          color:#eee!important;
+        }
+
+        .cta {
+          background: #f1e6dd!important;
+          color: #cb886f!important;
+        }
+
+        .cta:hover {
+          background: #f1e6ddd2!important;
+        }
+
+        h3 {
+          color: #f1e6dd;
+        }
+
+      }
+    </style>
+  </head>
+  <body class="body">
+    <div role="article" aria-label="email name" lang="en" dir="ltr" style="font-size:medium; font-size:max(16px, 1rem)">
+      <div style="display:none">
+        Preview text...
+      </div>
+      <div style="background:#111">
+        <div class="wrapper" style="max-width:360px; margin:0 auto;background:#f1e6dd; color: #cb886f; text-align: center; align-items: center;"">
+          <div style="display:table; width: 100%;">
+            <h1 style="font-family: Ovo, 'Work Sans'; font-size: 32px;">
+              BORCELLE
+            </h1>
+          </div>
+          <div style="display:table; width: 100%; background-image: url(https://images.pexels.com/photos/458766/pexels-photo-458766.jpeg); background-size: 100% auto; background-repeat: no-repeat;">
+            <h1 style="font-family: Ovo, 'Work Sans'; font-size: 48px; color: #eee;">Glow your skin</h1>
+            <h1 style="font-family: cursive, 'Work Sans'; font-size: 48px; color: #eee;">naturally</h1>
+          </div>
+          <div class="columns" style="width: 100%; background: #eee; color:#cb886f">
+            <div class="column" style="display:table; width:100%">
+              <img src="https://images.pexels.com/photos/301367/pexels-photo-301367.jpeg" style="width: 100%; height:auto" alt="makeup products">
+            </div>
+            <div class="column" style="display:table-cell; width:100%;">
+              <h2 style="font-family: Ovo, 'Work Sans'; font-size: 28px; margin: 0 auto;">Our Products</h2>
+              <p style="font-family: 'Work Sans', sans-serif;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac cursus urna, auctor ullamcorper mauris. Praesent tortor libero, ullamcorper id fringilla vitae..
+              </p>
+              <div style="display: table; width: 100%; padding: 1em 0;">
+                <a class="cta" href="#" style="display: inline-block; text-decoration: none; background-color: #cb886f; color: #eee; font-family: 'Work Sans', sans-serif; font-size: 16px; padding: 1em;">
+                  ORDER NOW
+                </a>
+              </div>
+            </div>
+          </div>
+          <div style="display:table; width: 100%;">
+            <a href="#" style="text-decoration: none; color: #cb886f;">
+              <h3 style="font-family: 'Work Sans', sans-serif; font-size: 16px; padding: 1em;">WWW.REALLYGREATSITE.COM</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
