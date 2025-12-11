@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>title</title>
+    <!--Mark-->
+    <style>
+        .faux-absolute {
+            max-height: 0;
+            position: relative;
+            opacity: 0.999
+        }
+
+        .faux-position {
+            margin-top: 5em;
+            margin-left: 1em;
+            display: inline-block;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="faux-absolute">
+      <div class="faux-position">faux absolute position content</div>
+    </div>
+    <img src="https://email-placeholders.com/600x400" style="width:100%">
+
+    <!--Steven-->
+    <div style="height: 500px;">
+      <img src="https://email-placeholders.com/600x400" style="width:100%">
+    </div>
+    <div style="background: lightblue; opacity: 0.999; position: relative;">
+      <p style="margin: 0;">faux absolute position content</p>
+    </div>
+  </body>
+</html>

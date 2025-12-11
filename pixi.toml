@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Enoch Mwanzo <mwanzoe060@yahoo.com>"]
+channels = ["conda-forge"]
+name = "emails"
+platforms = ["linux-aarch64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+html2image = ">=2.0.7,<3"

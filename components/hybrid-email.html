@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title></title></head>
+  <body>
+    <div style="display: table; max-width: min(800px, 100%); width: 100%;"><!--if the screen is less than 800px, make the width 100%-->
+      <div style="width:100%;">
+        <div style="display: inline-block; width: 100%; max-width: 800px; background-color: lightblue;">hello</div><!--this will always take up the full width-->
+        <div style="display: inline-block; width: 100%; max-width: 398px; background-color: lightgreen;">
+          hellohellohellohellohellohellohellohellohellohellohellohellohellohello
+        </div><!--the width will be 1/2 of the lightblue div, the overlow will overlap with the pink div-->
+        <div style="display: inline-block; width: 100%; max-width: min(100%, 398px); background-color:pink;">hello</div><!--if the screen is >800, should be on the same line as the lightgreen div, otherwise it will be on new line-->
+      </div>
+    </div>
+  </body>
+</html>
