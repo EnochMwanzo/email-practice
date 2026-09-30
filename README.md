@@ -17,3 +17,17 @@ https://www.canva.com/templates/EAFEabWQJ0k/</br>
 
 ### social media newsletter
 <img width="20%" src="https://github.com/EnochMwanzo/email-practice/blob/main/social-media-newsletter/social-media-newsletter-mobile.png?raw=true">
+
+The following emails were inspired by emails on <a href="reallygoodemails.com">ReallyGoodEmails</a>
+
+### wuffles
+<img width="20%" src="/srolling-gif-emails/wuffles.gif">
+
+### suds
+<img width="20%" src="/srolling-gif-emails/suds.gif">
+
+### harry's
+<img width="20%" src="/srolling-gif-emails/harryz.gif">
+
+### sunday's
+<img width="20%" src="/srolling-gif-emails/sundays.gif">
