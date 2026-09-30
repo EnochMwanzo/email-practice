@@ -22,8 +22,8 @@
 
       @media screen and (min-width: 480px) {        
        .product-column {
-          display: flex!important;
-          width: 100%!important;
+          display: table-cell!important;
+          width: 50%!important;
           padding: 0.5em;
         }
       }
@@ -72,7 +72,7 @@
               <!--first product-->
               <div class="product" style="display: table; width: 100%">
                 <div style="display:table; width: 100%;">
-                  <img src="https://images.pexels.com/photos/6786611/pexels-photo-6786611.jpeg" alt="beige shirt" width="192px" height="192px" style="border-radius: 17%;">
+                  <img src="https://images.pexels.com/photos/6786611/pexels-photo-6786611.jpeg" alt="beige shirt" width="192" height="192" style=" display:inline-block; border-radius: 17%; width: 192px; height: 192px;">
                 </div>
                 <div style="display:table; width:50%; margin: 0 25%;">
                   <div class="column" style="display: table-cell; text-align: left;">
@@ -148,8 +148,9 @@
             </div>
           </div>
         </div>
-        <!--end of all products-->
-          <div style="display: table; width:100%;">
+        </div>
+          <!--end of all products-->
+        <div style="display: table; width:100%;">
             <a href="#" class="cta" style="background-color:#ae7d5c; color: #f8f7f6; text-decoration: none; display:inline-block; padding: .5em 2em; mso-padding-alt:0;text-underline-color:#005959; border-radius: 2em;">
               shop now
             </a>
@@ -159,7 +160,6 @@
               <h3 style="font-style: Arimo; font-size: 11.1px; text-transform: uppercase;">reallygreatsite.com</h3>
             </a>
           </div>
-        </div>
       </div>
     </div>
   </body>

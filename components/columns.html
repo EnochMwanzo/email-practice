@@ -1,17 +1,46 @@
 <style>
-  @media screen and (min-width: 600px) {
-    .column {
-      display: table-cell!important;
-      width: 50%
+  @media  screen and (min-width:480px) {
+  .product-column{
+      display:table-cell !important;
+      width: 50% !important;
     }
-  }
+  }    
 </style>
 
-<div class="column-group" role="presentation" style="display: table; width: 100%;">
-  <div class="column">
-    <!--content-->
-  </div>
-  <div class="column">
-    <!--content-->
-  </div>
+<!--[if true]>
+<table role="presentation" width="100%" style="all:unset;opacity:0;">
+  <tr>
+<![endif]-->
+<!--[if false]></td></tr></table><![endif]-->
+<div style="display:table;width:100%;">
+  <!--[if true]>
+    <td width="50%">
+  <![endif]-->
+  <!--[if !true]><!-->
+    <div style="display:table-cell;width:50%">
+  <!--<![endif]-->
+      Column 1 content
+  <!--[if !true]><!-->
+    </div>
+  <!--<![endif]-->
+  <!--[if true]>
+    </td>
+  <![endif]-->
+  <!--[if true]>
+    <td width="50%">
+  <![endif]-->
+  <!--[if !true]><!-->
+    <div style="display:table-cell;width:50%">
+  <!--<![endif]-->
+      Column 2 content
+  <!--[if !true]><!-->
+    </div>
+  <!--<![endif]-->
+  <!--[if true]>
+    </td>
+  <![endif]-->
 </div>
+<!--[if true]>
+  </tr>
+</table>
+<![endif]-->

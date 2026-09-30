@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <title>Email title</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        supported-color-schemes: light dark;
+      }
+
+      @media screen and (min-width: 600px) {
+        .wrapper {
+          max-width: 600px!important;
+          width: 96%!important;
+        }
+        .column {
+          display: table-cell!important;
+          width: 50%
+        }
+      }
+    </style>
+  </head>
+  <body class="body">
+    <div role="article" aria-label="email name" lang="en" dir="ltr" style="font-size:medium; font-size:max(16px, 1rem)">
+      <div style="display:none">
+        Preview text...
+      </div>
+      <div style="background:#111">
+        <div class="wrapper" style="max-width:360px; margin:0 auto;background:#eee; text-align: center; align-items: center;">
+          <!--email content goes here-->
+          <!--logo with yellow underline-->
+          <h1 style="font-size: 3.5em;">hertz</h1>
+          <!--yellow background with black text-->
+          <div style="background: yellow;">
+            <div class="spacer" style="line-height:2em;height:2em;">&nbsp;</div>
+            <p>SAVE FIRST. SAVE MORE.</p>
+          </div>
+          <!--background image of car with white text on top, and yellow button with black cta text-->
+            <!--migt use a fixed height and abs positionin for cta-->
+          <div style="height:300px; background-image: url(https://unsplash.com/photos/zQ31Ul9QMtw/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fGNhciUyMHNob3dyb29tfGVufDB8Mnx8fDE3NjU3NTQ1MTN8MA&force=true&w=640); background-repeat: no-repeat; background-position: center;">
+            <p style="color: #eee; font-size: 2em;">BLACK FRIDAY</p>
+            <p style="color: #eee; font-size: 3em;">SALE</p>
+          </div>
+          <div style="display: block; width: 100%;">
+            <a class="cta" style="background: yellow; color:#111; border: 2px solid #111; border-radius: 2em; padding: 1em 3em; font-size: 1.25em;">Get Early Access</a>
+          </div>
+          <!--white background, black subheading, left align body, smaller black cta-->
+          <div style="background: #eee;">
+            <h2 style="font-size: 2em;">It's the year's biggest deal. Why wait to save?</h2>
+            <p style="text-align: left;">Major savings are rolling up soon, and Hertz Gold Plus Rewards members get first dibs on top of savings (on top of savings more.) The best news, it's <b>fast, easy,</b> and <b>free.</b></p>
+          </div>
+          <div style="display: block; width: 100%;">
+            <a class="cta" style="background: #111; color:#eee; border: 2px solid #111; border-radius: 2em; padding: 1em 3em;">Get Early Access</a>
+          </div>
+          <!--heading 3-->
+          <h3>Why Join Hertz Gold Plus Rewards</h3>
+          <!--two columns or four rows, one coulumn black svg yellow background rounded corners, second column left align bold body and then plain body-->
+          <div class="column-group" role="presentation" style="display: table; width: 100%;">
+            <div class="column">
+              <p><span style="background: yellow; border-radius: 50%;">price tag svg</span></p>
+              <p><span style="background: yellow; border-radius: 50%;">running svg</span></p>
+              <p><span style="background: yellow; border-radius: 50%;">car svg</span></p>
+              <p><span style="background: yellow; border-radius: 50%;">two cars svg</span></p>
+            </div>
+            <div class="column">
+              <p style="font-style: bold;">Members-only rates</p>
+              <p style="font-style: bold;">Members-only rates</p>
+              <p style="font-style: bold;">Members-only rates</p>
+              <p style="font-style: bold;">Members-only rates</p>
+            </div>
+          </div>
+          <!--black cta-->
+          <div style="display: block; width: 100%;">
+            <a class="cta" style="background: #111; color:#eee; border-radius: 2em; padding: 1em 3em;">Get Early Access</a>
+          </div>
+          <div class="spacer" style="line-height:3em;height:3em;">&nbsp;</div>
+          <!--small body fine print-->
+          <p style="font-size: 0.7em;">*Herts Gold Plus Rewards Discount Code...</p>
+          <!--grey background, two column logo on left, instagram, tiktok, fb, yt, x icons on right, on mobile it is stacked into one column-->
+          <div class="column-group" role="presentation" style="display: table; width: 100%;">
+            <div class="column">
+              <p style="font-size: 3.5em; text-decoration: yellow underline;">Herts</p>
+            </div>
+            <div class="column">
+              <p><span>instagram svg</span><span>tiktok svg</span><span>fb svg</span><span>yt svg</span></p><span>x svg</span>
+            </div>
+          </div>
+          <!--two columns of two rows, with border-->
+          <div class="menu" role="presentation" style="display: table; width: 100%;">
+            <div class="column">
+              <a href="#" style="text-decoration: none;">Resvervations</a>
+              <a href="#" style="text-decoration: none;">FAQs</a>
+            </div>
+            <div class="column">
+              <a href="#" style="text-decoration: none;">Preferences</a>
+              <a href="#" style="text-decoration: none;">Contact Hertz</a>
+            </div>
+          </div>
+          <!--small body text with dark grey a links-->
+          <a href="#" style="font-weight: bold;">View in Browser</a><b>|</b><a href="#" style="font-weight: bold;">Privacy Policy</a>
+          <p style="font-size: 0.7em;">You are receiving this email as a valued customer of Hertz</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
